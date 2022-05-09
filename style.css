@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 975px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textZone {
+    max-width: 600px;
+    text-align: center;
+    margin: 50px auto 100px auto
+}
+
+.inputText {
+    width: 600px;
+    height: 100px;
+    color: black;
+    font-size: 20px;
+}
+
+.keyborde {
+    height: 320px;
+    border: 2px black solid;
+    padding: 5px;
+}
+
+.keys {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.keyBackspace {
+    width: 115px;
+    height: 50px;
+    margin: 5px;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.keyTab {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.keyArrow {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.keyWin {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.keyAlt {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.keyLeft {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.keyRight {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.keyDown {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.delKey {
+    width: 115px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.capsKey {
+    width: 75px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.enterKey {
+    width: 90px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.shiftKey {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.shiftKeyleft {
+    width: 178px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.ctrlKey {
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.spaceKey {
+    width: 373px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.active {
+    background: rgb(240, 197, 132);
+    transition: 0.3s;
+}
+
+.textSite {
+    font-size: 25px;
+}
